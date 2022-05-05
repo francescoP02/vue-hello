@@ -12,6 +12,9 @@ const app = new Vue(
         el: `#root`,
 
         data: {
+            userName: prompt("Qual è il tuo nome?"),
+
+            userSurname: prompt("Qual è il tuo cognome?"),
 
         },
 
