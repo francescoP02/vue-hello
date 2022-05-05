@@ -23,7 +23,11 @@
 
         <!-- Applicazione vue -->
 
-        <h1 :class="userMessage"> Ciao {{userName}} {{userSurname}}</h1>
+        <h1 v-bind:class="userMessage"> Ciao {{userName}} {{userSurname}}</h1>
+
+        <a href="" @click="changeColor">Click for change text color</a>
+
+        <img :src="myImage" alt="generatedImg">
 
     </div>
 
